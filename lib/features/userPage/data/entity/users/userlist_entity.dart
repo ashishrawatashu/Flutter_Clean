@@ -1,5 +1,4 @@
-
-import '../../../../features/domain/model/users/user_list_model.dart';
+import '../../../domain/model/users/user_list_model.dart';
 import 'data_entity.dart';
 import 'support_entity.dart';
 import 'dart:convert';

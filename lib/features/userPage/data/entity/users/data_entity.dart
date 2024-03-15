@@ -1,6 +1,5 @@
 import 'dart:convert';
-
-import '../../../../features/domain/model/users/data_model.dart';
+import '../../../domain/model/users/data_model.dart';
 
 DataEntity dataFromJson(String str) => DataEntity.fromJson(json.decode(str));
 String dataToJson(DataEntity data) => json.encode(data.toJson());

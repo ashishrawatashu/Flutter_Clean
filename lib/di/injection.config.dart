@@ -14,10 +14,12 @@ import 'package:get_it/get_it.dart' as _i1;
 import 'package:injectable/injectable.dart' as _i2;
 import 'package:pretty_dio_logger/pretty_dio_logger.dart' as _i5;
 
-import '../features/data/data_source/remote/user_remote_ds_impl.dart' as _i7;
-import '../features/data/repository/user/user_repository_impl.dart' as _i8;
-import '../features/domain/usecase/user_usecase.dart' as _i9;
-import '../features/presentation/bloc/user_bloc/user_bloc.dart' as _i6;
+import '../features/userPage/data/data_source/remote/user_remote_ds_impl.dart'
+    as _i7;
+import '../features/userPage/data/repository/user/user_repository_impl.dart'
+    as _i8;
+import '../features/userPage/domain/usecase/user_usecase.dart' as _i9;
+import '../features/userPage/presentation/bloc/user_bloc/user_bloc.dart' as _i6;
 import '../shared/data/network/api_service.dart' as _i3;
 import 'app_module.dart' as _i10;
 

@@ -1,7 +1,6 @@
 
 import 'package:equatable/equatable.dart';
-
-import '../../../../shared/domain/error/network_error.dart';
+import '../../../../../shared/domain/error/network_error.dart';
 import '../../../domain/model/users/user_list_model.dart';
 
 abstract class UserState extends Equatable {

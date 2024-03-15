@@ -1,5 +1,4 @@
-
-import 'package:base_setup/features/domain/model/users/support_model.dart';
+import 'package:base_setup/features/userPage/domain/model/users/support_model.dart';
 
 import 'data_model.dart';
 

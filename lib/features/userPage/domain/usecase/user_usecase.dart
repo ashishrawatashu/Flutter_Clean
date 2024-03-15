@@ -1,8 +1,7 @@
 
 import 'package:either_dart/either.dart';
-
-import '../../../shared/domain/error/network_error.dart';
-import '../../../shared/domain/usecase/base/base_usecase.dart';
+import '../../../../shared/domain/error/network_error.dart';
+import '../../../../shared/domain/usecase/base/base_usecase.dart';
 import '../model/users/user_list_model.dart';
 import '../repository/user/user_repository.dart';
 

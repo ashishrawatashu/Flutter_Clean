@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import '../../../../features/domain/model/users/support_model.dart';
+import '../../../domain/model/users/support_model.dart';
 
 
 SupportEntity supportFromJson(String str) => SupportEntity.fromJson(json.decode(str));

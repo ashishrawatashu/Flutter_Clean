@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../../shared/ui/app_progress.dart';
+import '../../../../shared/ui/app_progress.dart';
 import '../bloc/user_bloc/user_bloc.dart';
 import '../bloc/user_bloc/user_event.dart';
 import '../bloc/user_bloc/user_state.dart';

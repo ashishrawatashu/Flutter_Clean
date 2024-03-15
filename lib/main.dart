@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import 'features/presentation/bloc/user_bloc/user_bloc.dart';
+import 'features/userPage/presentation/bloc/user_bloc/user_bloc.dart';
 
 void main() async {
   // WidgetsFlutterBinding.ensureInitialized();

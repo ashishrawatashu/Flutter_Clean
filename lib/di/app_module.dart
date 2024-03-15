@@ -1,13 +1,13 @@
 
-import 'package:base_setup/features/domain/usecase/user_usecase.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:injectable/injectable.dart';
 import 'package:pretty_dio_logger/pretty_dio_logger.dart';
 
-import '../features/data/data_source/remote/user_remote_ds_impl.dart';
-import '../features/data/repository/user/user_repository_impl.dart';
-import '../features/presentation/bloc/user_bloc/user_bloc.dart';
+import '../features/userPage/data/data_source/remote/user_remote_ds_impl.dart';
+import '../features/userPage/data/repository/user/user_repository_impl.dart';
+import '../features/userPage/domain/usecase/user_usecase.dart';
+import '../features/userPage/presentation/bloc/user_bloc/user_bloc.dart';
 import '../shared/data/network/api_service.dart';
 import '../shared/data/network/network_properties.dart';
 
